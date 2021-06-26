@@ -2,7 +2,6 @@ package com.tionkior.controller;
 
 import com.tionkior.domain.User;
 import com.tionkior.service.UserService;
-import org.apache.commons.logging.LogFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -29,5 +28,4 @@ public class UserController {
 
         return "success";
     }
-
 }

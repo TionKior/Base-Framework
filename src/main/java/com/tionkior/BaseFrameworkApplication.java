@@ -10,7 +10,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-@MapperScan(basePackages = {"com.tionkior.mapper"})
 public class BaseFrameworkApplication {
 
     public static void main(String[] args) {
