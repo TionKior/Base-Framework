@@ -1,52 +1,48 @@
-2021-06-27 16:02:01.609  INFO 6324 --- [main] c.t.b.BaseFrameworkApplicationTests      : Starting BaseFrameworkApplicationTests using Java 11.0.10 on DESKTOP-DSSV210 with PID 6324 (started by TionKior in C:\Users\TionKior\Desktop\BaseFramework)
-2021-06-27 16:02:01.620  INFO 6324 --- [main] c.t.b.BaseFrameworkApplicationTests      : No active profile set, falling back to default profiles: default
-2021-06-27 16:02:02.490  INFO 6324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-06-27 16:02:02.493  INFO 6324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-06-27 16:02:02.525  INFO 6324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-2021-06-27 16:02:02.911  INFO 6324 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.tionkior.config.RedisConfig$$EnhancerBySpringCGLIB$$ec12d5d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-06-27 16:02:03.376  INFO 6324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-06-27 16:02:03.592  INFO 6324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-06-27 16:02:05.069  INFO 6324 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-06-27 16:02:06.040  INFO 6324 --- [main] c.t.b.BaseFrameworkApplicationTests      : Started BaseFrameworkApplicationTests in 4.879 seconds (JVM running for 6.157)
-2021-06-27 16:02:06.883  INFO 6324 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2021-06-27 16:02:06.897  INFO 6324 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2021-06-27 16:05:19.278  INFO 17272 --- [main] com.tionkior.BaseFrameworkApplication    : Starting BaseFrameworkApplication using Java 11.0.10 on DESKTOP-DSSV210 with PID 17272 (C:\Users\TionKior\Desktop\BaseFramework\target\classes started by TionKior in C:\Users\TionKior\Desktop\BaseFramework)
-2021-06-27 16:05:19.280  INFO 17272 --- [main] com.tionkior.BaseFrameworkApplication    : No active profile set, falling back to default profiles: default
-2021-06-27 16:05:19.891  INFO 17272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-06-27 16:05:19.893  INFO 17272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-06-27 16:05:19.914  INFO 17272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
-2021-06-27 16:05:20.140  INFO 17272 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.tionkior.config.RedisConfig$$EnhancerBySpringCGLIB$$f9510950] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-06-27 16:05:20.406  INFO 17272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-06-27 16:05:20.416  INFO 17272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-06-27 16:05:20.417  INFO 17272 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2021-06-27 16:05:20.514  INFO 17272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-06-27 16:05:20.515  INFO 17272 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1198 ms
-2021-06-27 16:05:20.661  INFO 17272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-06-27 16:05:20.754  INFO 17272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-06-27 16:05:21.293  INFO 17272 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-06-27 16:05:21.538  INFO 17272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-06-27 16:05:21.548  INFO 17272 --- [main] com.tionkior.BaseFrameworkApplication    : Started BaseFrameworkApplication in 2.717 seconds (JVM running for 3.672)
-2021-06-27 16:11:53.320  INFO 8580 --- [main] c.t.b.BaseFrameworkApplicationTests      : Starting BaseFrameworkApplicationTests using Java 11.0.10 on DESKTOP-DSSV210 with PID 8580 (started by TionKior in C:\Users\TionKior\Desktop\BaseFramework)
-2021-06-27 16:11:53.323  INFO 8580 --- [main] c.t.b.BaseFrameworkApplicationTests      : No active profile set, falling back to default profiles: default
-2021-06-27 16:11:54.215  INFO 8580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-06-27 16:11:54.220  INFO 8580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-06-27 16:11:54.250  INFO 8580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
-2021-06-27 16:11:54.609  INFO 8580 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.tionkior.config.RedisConfig$$EnhancerBySpringCGLIB$$4e115eaf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-06-27 16:11:55.036  INFO 8580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-06-27 16:11:55.227  INFO 8580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-06-27 16:11:56.427  INFO 8580 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-06-27 16:11:56.947  INFO 8580 --- [main] c.t.b.BaseFrameworkApplicationTests      : Started BaseFrameworkApplicationTests in 4.144 seconds (JVM running for 5.295)
-2021-06-27 16:11:57.477  INFO 8580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2021-06-27 16:11:57.489  INFO 8580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2021-06-27 16:12:29.674  INFO 11804 --- [main] c.t.b.BaseFrameworkApplicationTests      : Starting BaseFrameworkApplicationTests using Java 11.0.10 on DESKTOP-DSSV210 with PID 11804 (started by TionKior in C:\Users\TionKior\Desktop\BaseFramework)
-2021-06-27 16:12:29.677  INFO 11804 --- [main] c.t.b.BaseFrameworkApplicationTests      : No active profile set, falling back to default profiles: default
-2021-06-27 16:12:30.477  INFO 11804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-06-27 16:12:30.481  INFO 11804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-06-27 16:12:30.511  INFO 11804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-2021-06-27 16:12:30.873  INFO 11804 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.tionkior.config.RedisConfig$$EnhancerBySpringCGLIB$$2a875ec1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-06-27 16:12:31.258  INFO 11804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-06-27 16:12:31.447  INFO 11804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-06-27 16:12:32.642  INFO 11804 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-06-27 16:12:33.179  INFO 11804 --- [main] c.t.b.BaseFrameworkApplicationTests      : Started BaseFrameworkApplicationTests in 3.915 seconds (JVM running for 5.134)
-2021-06-27 16:12:33.631  INFO 11804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2021-06-27 16:12:33.644  INFO 11804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-06-29 22:14:17.661  INFO 9572 --- [main] c.t.b.BaseFrameworkApplicationTests      : Starting BaseFrameworkApplicationTests using Java 11.0.10 on DESKTOP-DSSV210 with PID 9572 (started by TionKior in C:\Users\TionKior\Desktop\BaseFramework)
+2021-06-29 22:14:17.671  INFO 9572 --- [main] c.t.b.BaseFrameworkApplicationTests      : No active profile set, falling back to default profiles: default
+2021-06-29 22:14:18.761  INFO 9572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-29 22:14:18.765  INFO 9572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-29 22:14:18.801  INFO 9572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2021-06-29 22:14:19.214  INFO 9572 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.tionkior.config.RedisConfig$$EnhancerBySpringCGLIB$$ec12d5d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-29 22:14:19.681  INFO 9572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-29 22:14:19.894  INFO 9572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-29 22:14:21.327  INFO 9572 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-06-29 22:14:21.930  INFO 9572 --- [main] c.t.b.BaseFrameworkApplicationTests      : Started BaseFrameworkApplicationTests in 4.725 seconds (JVM running for 5.952)
+2021-06-29 22:14:22.593  INFO 9572 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-06-29 22:14:22.609  INFO 9572 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-06-29 22:16:00.268  INFO 4364 --- [main] c.t.b.BaseFrameworkApplicationTests      : Starting BaseFrameworkApplicationTests using Java 11.0.10 on DESKTOP-DSSV210 with PID 4364 (started by TionKior in C:\Users\TionKior\Desktop\BaseFramework)
+2021-06-29 22:16:00.268  INFO 4364 --- [main] c.t.b.BaseFrameworkApplicationTests      : No active profile set, falling back to default profiles: default
+2021-06-29 22:16:01.105  INFO 4364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-29 22:16:01.113  INFO 4364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-29 22:16:01.145  INFO 4364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2021-06-29 22:16:01.505  INFO 4364 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.tionkior.config.RedisConfig$$EnhancerBySpringCGLIB$$8d6e4b10] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-29 22:16:01.890  INFO 4364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-29 22:16:02.094  INFO 4364 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-29 22:16:03.317  INFO 4364 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-06-29 22:16:03.845  INFO 4364 --- [main] c.t.b.BaseFrameworkApplicationTests      : Started BaseFrameworkApplicationTests in 4.056 seconds (JVM running for 5.19)
+2021-06-29 22:16:04.606  INFO 4364 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-06-29 22:16:04.614  INFO 4364 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-06-29 22:21:22.166  INFO 20776 --- [main] c.t.b.BaseFrameworkApplicationTests      : Starting BaseFrameworkApplicationTests using Java 11.0.10 on DESKTOP-DSSV210 with PID 20776 (started by TionKior in C:\Users\TionKior\Desktop\BaseFramework)
+2021-06-29 22:21:22.169  INFO 20776 --- [main] c.t.b.BaseFrameworkApplicationTests      : No active profile set, falling back to default profiles: default
+2021-06-29 22:21:23.002  INFO 20776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-29 22:21:23.005  INFO 20776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-29 22:21:23.036  INFO 20776 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2021-06-29 22:21:23.410  INFO 20776 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.tionkior.config.RedisConfig$$EnhancerBySpringCGLIB$$2307551c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-29 22:21:23.816  INFO 20776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-29 22:21:23.991  INFO 20776 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-29 22:21:25.263  INFO 20776 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-06-29 22:21:25.805  INFO 20776 --- [main] c.t.b.BaseFrameworkApplicationTests      : Started BaseFrameworkApplicationTests in 4.206 seconds (JVM running for 5.345)
+2021-06-29 22:21:26.391  INFO 20776 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-06-29 22:21:26.404  INFO 20776 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-06-29 22:32:36.409  INFO 16228 --- [main] c.t.b.BaseFrameworkApplicationTests      : Starting BaseFrameworkApplicationTests using Java 11.0.10 on DESKTOP-DSSV210 with PID 16228 (started by TionKior in C:\Users\TionKior\Desktop\BaseFramework)
+2021-06-29 22:32:36.409  INFO 16228 --- [main] c.t.b.BaseFrameworkApplicationTests      : No active profile set, falling back to default profiles: default
+2021-06-29 22:32:37.217  INFO 16228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-29 22:32:37.217  INFO 16228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-29 22:32:37.249  INFO 16228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2021-06-29 22:32:37.632  INFO 16228 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.tionkior.config.RedisConfig$$EnhancerBySpringCGLIB$$7823772e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-29 22:32:38.041  INFO 16228 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-29 22:32:38.230  INFO 16228 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-29 22:32:39.420  INFO 16228 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-06-29 22:32:39.940  INFO 16228 --- [main] c.t.b.BaseFrameworkApplicationTests      : Started BaseFrameworkApplicationTests in 3.931 seconds (JVM running for 5.143)
+2021-06-29 22:32:40.539  INFO 16228 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-06-29 22:32:40.547  INFO 16228 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
