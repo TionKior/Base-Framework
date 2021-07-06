@@ -21,7 +21,6 @@ public class UserController {
     @Resource(name = "userService")
     private UserService userService;
 
-
     @RequestMapping("/save")
     public String baseController(User user) {
         userService.save(user);
