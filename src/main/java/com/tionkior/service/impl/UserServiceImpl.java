@@ -26,5 +26,4 @@ public class UserServiceImpl implements UserService {
     public void save(User user) {
         userMapper.insert(user);
     }
-
 }
