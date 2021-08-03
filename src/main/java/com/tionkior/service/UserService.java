@@ -6,7 +6,6 @@ import com.tionkior.domain.User;
  * @author TionKior
  */
 
-
 public interface UserService {
 
     /**
