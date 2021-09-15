@@ -25,8 +25,6 @@ public class UserController {
     public String baseController(User user) {
         userService.save(user);
 
-
-
         return "success";
     }
 }
