@@ -24,7 +24,6 @@ public class UserController {
     @RequestMapping("/save")
     public String baseController(User user) {
         userService.save(user);
-
         return "success";
     }
 }
