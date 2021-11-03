@@ -1,4 +1,4 @@
-package com.tionkior.controller;
+package com.tionkior.web;
 
 import com.tionkior.domain.User;
 import com.tionkior.service.UserService;
