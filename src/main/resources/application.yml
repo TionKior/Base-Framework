@@ -11,7 +11,7 @@ spring:
     host: 127.0.0.1 # redis的主机ip
     port: 6379 # 端口
 
-#tomcat
+#port
 server:
   port: 8080 # 设置端口号
   servlet:
@@ -24,7 +24,7 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: auto # 全局的id生成策略
-  mapper-locations: classpath:mapper/*Mapper.xml # 加载xml映射文件
+  mapper-locations: classpath:mappers/*Mapper.xml # 加载xml映射文件
   type-aliases-package: com.tionkior.domain # 设置别名
 
 # 日志信息保存
