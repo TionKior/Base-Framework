@@ -1,4 +1,4 @@
-package com.tionkior.web;
+package com.tionkior.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
