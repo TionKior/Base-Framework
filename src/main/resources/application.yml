@@ -2,10 +2,11 @@
 spring:
   # mysql数据库配置
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/user?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=true&serverTimezone=UTC
-    username: root
-    password: ssx14233
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/user?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=true&serverTimezone=UTC
+      username: root
+      password: ssx14233
     # redis数据库配置
   redis:
     host: 127.0.0.1 # redis的主机ip
