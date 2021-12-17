@@ -1,5 +1,6 @@
 package com.tionkior.service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.tionkior.domain.User;
 import com.tionkior.mapper.UserMapper;
 import com.tionkior.service.UserService;
@@ -16,14 +17,14 @@ import org.springframework.transaction.annotation.Transactional;
  */
 
 @Service("userService")
-public class UserServiceImpl implements UserService {
+public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
 
     @Autowired
     private UserMapper userMapper;
 
     @Override
     @Transactional(rollbackFor = Exception.class)
-    public void save(User user) {
+    public void saveUser(User user) {
         userMapper.insert(user);
     }
 

@@ -1,18 +1,19 @@
 package com.tionkior.service;
 
+import com.baomidou.mybatisplus.extension.service.IService;
 import com.tionkior.domain.User;
 
 /**
  * @author TionKior
  */
 
-public interface UserService {
+public interface UserService extends IService<User> {
 
     /**
      * Save User Data
      *
      * @param user
      */
-    void save(User user);
+    void saveUser(User user);
 
 }
