@@ -1,6 +1,6 @@
 package com.tionkior.baseframework;
 
-import com.tionkior.domain.User;
+import com.tionkior.pojo.User;
 import com.tionkior.mapper.UserMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

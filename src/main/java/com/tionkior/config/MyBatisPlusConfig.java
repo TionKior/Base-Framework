@@ -1,7 +1,6 @@
 package com.tionkior.config;
 
-import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
-import org.mybatis.spring.annotation.MapperScan;
+import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -17,10 +16,11 @@ public class MyBatisPlusConfig {
 
     /**
      * 加载分页助手
+     *
      * @return
      */
-    public PaginationInterceptor paginationInterceptor(){
-        return new PaginationInterceptor();
+    public MybatisPlusInterceptor mybatisPlusInterceptor() {
+        return new MybatisPlusInterceptor ();
     }
 
 }

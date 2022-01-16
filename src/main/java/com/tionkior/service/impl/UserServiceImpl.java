@@ -1,7 +1,7 @@
 package com.tionkior.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.tionkior.domain.User;
+import com.tionkior.pojo.User;
 import com.tionkior.mapper.UserMapper;
 import com.tionkior.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

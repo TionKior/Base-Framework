@@ -26,7 +26,7 @@ mybatis-plus:
     db-config:
       id-type: auto # 全局的id生成策略
   mapper-locations: classpath:mapper/*Mapper.xml # 加载xml映射文件
-  type-aliases-package: com.tionkior.domain # 设置别名
+  type-aliases-package: com.tionkior.pojo # 设置别名
 
 # 日志信息保存
 logging:

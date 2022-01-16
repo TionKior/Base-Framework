@@ -1,7 +1,7 @@
 package com.tionkior.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.tionkior.domain.User;
+import com.tionkior.pojo.User;
 
 /**
  * @author TionKior
